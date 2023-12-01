@@ -1,0 +1,8 @@
+Enter as many as 1000 "studnum mark" pairs, ^D to end
+5 pairs read into arrays
+studnum  mark
+765876  94
+785671  68
+823678  66
+854565  89
+864876  48
