@@ -44,6 +44,9 @@ BLEService matlabService("EF680201-9B35-4933-9B10-52FFA9740042"); // create serv
 BLEStringCharacteristic matlabCharacteristic("EF680202-9B35-4933-9B10-52FFA9740042"
                                             , BLERead | BLEWrite, 125);
 
+
+
+//Data for Webhook Trigger
 char   HOST_NAME[] = "maker.ifttt.com";
 String PATH_NAME   = "/trigger/Fall_Happened/json/with/key/dZFmPGzvq6Wy7bpxNUCb3g";
 String queryString = "?value1=57&value2=25";
