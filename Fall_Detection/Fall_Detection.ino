@@ -39,7 +39,7 @@ Adafruit_MPU6050 mpu;
 WiFiClient client;
 File myFile;
 
-//Bluetooth ID
+//Bluetooth Random Bluetooth LTE for Matlab
 BLEService matlabService("EF680201-9B35-4933-9B10-52FFA9740042"); // create service
 BLEStringCharacteristic matlabCharacteristic("EF680202-9B35-4933-9B10-52FFA9740042"
                                             , BLERead | BLEWrite, 125);
