@@ -4,7 +4,6 @@
 #include <ArduinoBLE.h>
 #include <math.h>
 #include <WiFiNINA.h>
-#include <SD.h>
 
 
 //Setting up Value
