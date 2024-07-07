@@ -6,6 +6,13 @@
 #define ONE_SECOND 1000
 
 // Initialize Value
+typedef enum{
+Manual = 0,
+Auto,
+OFF
+} MODE_E
+
+
 String Manual = "Manual";
 String Auto = "Auto";
 String OFF = "Off";
